@@ -1,0 +1,41 @@
+body {
+    padding: 40px 40px 40px 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: auto;
+}
+
+.germany {
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.usa {
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.poland {
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.ukraine {
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.russia {
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
