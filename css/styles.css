@@ -10,32 +10,13 @@ body {
     margin: auto;
 }
 
-.germany {
+.icons {
     margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
+    transition: 1s;
 }
 
-.usa {
-    margin: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.poland {
-    margin: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.ukraine {
-    margin: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.russia {
-    margin: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
+.icons:hover {
+    transform: scale(1.2);
 }
