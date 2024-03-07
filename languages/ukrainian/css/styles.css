@@ -298,3 +298,34 @@ body {
     margin-top: 0;
     margin-bottom: 8px;
 }
+
+.hobby-container {
+    margin-top: 0;
+}
+
+.hobby-title {
+    color: #000;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.hobby-place {
+    color: #6D9BF5;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.hobby-direction {
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
