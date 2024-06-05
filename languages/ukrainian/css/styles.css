@@ -4,6 +4,46 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+.icons {
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    -webkit-animation: pulsing 3s infinite;
+    animation: pulsing 3s infinite;
+    width: 150px;
+    height: 150px;
+}
+
+@-webkit-keyframes pulsing {
+    0% {
+      -webkit-transform: scale(0.8, 0.8);
+      transform: scale(0.8, 0.8)
+    }
+    50% {
+      -webkit-transform: scale(1.0, 1.0);
+      transform: scale(1.0, 1.0);
+    }
+    100% {
+      -webkit-transform: scale(0.8, 0.8);
+      transform: scale(0.8, 0.8);
+    }
+  }
+  
+  @keyframes pulsing {
+    0% {
+      -webkit-transform: scale(0.8, 0.8);
+      transform: scale(0.8, 0.8)
+    }
+    50% {
+      -webkit-transform: scale(1.0, 1.0);
+      transform: scale(1.0, 1.0);
+    }
+    100% {
+      -webkit-transform: scale(0.8, 0.8);
+      transform: scale(0.8, 0.8);
+    }
+}
+
 .wrapper {
     background-color: #FFF;
     display: flex;
