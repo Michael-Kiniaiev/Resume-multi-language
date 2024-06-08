@@ -68,7 +68,7 @@ body {
 
 .main-content {
     padding-left: 8%;
-    padding-top: 8%;
+    padding-top: 5%;
     padding-right: 8%;
     padding-bottom: 8%;
     box-sizing: border-box;
@@ -365,7 +365,7 @@ body {
 .work-experience-duties-list {
     padding-left: 26px;
     margin-top: 0;
-    margin-bottom: 7%;
+    margin-bottom: 5%;
 }
 
 .work-experience-duties-item {
