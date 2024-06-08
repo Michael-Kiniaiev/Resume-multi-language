@@ -19,6 +19,10 @@ body {
         height: 30px;
         margin-right: 0;
     }
+    @media (max-width: 700px) {
+        height: 45px;
+        margin-right: 0;
+    }
 }
 
 @-webkit-keyframes pulsing {
@@ -63,20 +67,46 @@ body {
 }
 
 .main-content {
-    padding-left: 5%;
-    padding-top: 5%;
-    padding-right: 1%;
-    padding-bottom: 5%;
+    padding-left: 8%;
+    padding-top: 8%;
+    padding-right: 8%;
+    padding-bottom: 8%;
     box-sizing: border-box;
+    @media (min-width: 1001px) {
+        padding-right: 0%;
+        padding-left: 7%;
+    }
 }
 
 .profile-photo {
     width: 370px;
     height: 390px;
+    margin: auto;
     @media (max-width: 1000px) {
-        width: 70%;
-        height: 70%;
+        width: 100%;
+        height: 100%;
         margin-left: 5%;
+        margin-top: 1%;
+    }
+    @media (max-width: 875px) {
+        width: 90%;
+        height: 90%;
+        margin-left: 3%;
+        margin-right: 1%;
+    }
+    @media (max-width: 785px) {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 90%;
+        height: 90%;
+    }
+    @media (max-width: 435px) {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 80%;
+        height: 80%;
     }
 }
 
@@ -90,6 +120,14 @@ body {
         display: flex;
         flex-direction: row;
     }
+    @media (max-width: 875px) {
+        display: flex;
+        flex-direction: row;
+    }
+    @media (max-width: 785px) {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 .sidebar-content {
@@ -97,6 +135,11 @@ body {
     padding-top: 10%;
     padding-right: 15%;
     box-sizing: border-box;
+    @media (max-width: 875px) {
+        padding-left: 8%;
+        padding-top: 8%;
+        padding-right: 8%;
+    }
 }
 
 .contacts-title {
